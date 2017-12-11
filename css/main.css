@@ -611,7 +611,6 @@ button {
 }
 .search > div input {
 	background-color: #fafafa;
-	position: static;
 }
 .search-btn {
 	width: 15.5%;
