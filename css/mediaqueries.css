@@ -1,0 +1,371 @@
+.mobile-profile-container,
+.mobile-tabs-container {
+	display: none;
+}
+@media only screen and (max-width: 767px) {
+	html,body { width:100%; height:100%; font-size: 1px;}
+	/*main page*/
+	.account-page-left-col {
+		display: none;
+	}
+	.account-page-wrapper > div {
+		float: none;
+		width: 100%;
+	}
+	.account-page-right-col {
+		padding: 80rem 0;
+	}
+	.account-page-wrapper {
+		height: auto;
+	    overflow: visible;
+	}
+	.account-content-wrapper {
+		width: 100%;
+		padding: 0 20rem;
+	}
+	.password-restore-link {
+	    margin: 32rem 0 50rem 20rem;
+	}
+	.form-input-wrapper {
+		padding: 14rem 0 20rem 20rem;
+		font-size: 16rem;
+	}
+	.form-input-wrapper input {
+		font-size: 16rem;
+	}
+	.btn-wrapper {
+		padding: 0 10rem;
+	}
+	.sign-up-row {
+		padding: 0;
+		text-align: center;
+	}
+	.sign-up-row > p,
+	.sign-up-row > a {
+		float: none;
+	}
+	.sign-up-row > p {
+		margin-bottom: 10rem;
+	}
+	.sign-up-row > a {
+		display: inline-block;
+	}
+	/*page password restore*/
+	.page-password-restore {
+		padding: 130rem 0 126rem 0;
+	}
+	.mobile-btn-back {
+		display: block;
+		width: 60rem;
+		height: 60rem;
+		position: absolute;
+		top: 20rem;
+		left: 20rem;
+		background-image: url(../img/elements/close-icon.svg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		-webkit-background-size: 17rem 17rem;
+		background-size: 17rem 17rem;
+		z-index: 101;
+	}
+	.page-password-restore p {
+		margin-bottom: 60rem;
+	}
+	.incorrect-text {
+		padding: 0 20rem;
+	}
+	.password-restore-form .incorrect-text {
+		margin-bottom: 0;
+	}
+	.incorrect-text.active {
+		margin-bottom: 50rem;
+	}
+	/*page restore message*/
+	.success-registration-page {
+		position: absolute;
+		top: 50%;
+		margin-top: -47rem;
+		padding: 0;
+		height: auto !important;
+	}
+	/*page register*/
+	.register-new-user-page {
+		padding: 120rem 0;
+	}
+	.register-new-user-page h1 {
+		padding: 0 20rem;
+	}
+	.register-subtitle {
+		font-size: 12rem;
+		margin-bottom: 0;
+	}
+	.register-new-user-page {
+		padding: 110rem 0 62rem 0;
+	}
+	.choose-category-block {
+		margin-top: 30rem;
+	}
+	.select-param-wrapper label,
+	.select-param-wrapper .nice-select span.current {
+		font-size: 16rem;
+	}
+	.mobile-gradient::after {
+		content: "";
+		display: block;
+		width: 50rem;
+		height: 100%;
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		right: 0;
+		background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #fcfcfc 35%, #fafafa);
+		background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), #fcfcfc 35%, #fafafa);
+		background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #fcfcfc 35%, #fafafa);
+	}
+	.select-param-wrapper.mobile-gradient::after {
+		right: 30rem;
+	}
+	.nice-select span.current {
+		display: block;
+		width: 240rem;
+		overflow: hidden;
+	}
+	/*PAGE ACCOUNT*/
+	.account-inner-page-wrapper,
+	.account-inner-page-wrapper > div {
+		height: auto;
+	}
+	.account-inner-page-wrapper .logo {
+		display: none;
+	}
+	.account-inner-page-wrapper > div {
+		float: none;
+		width: 100%;
+	}
+	.exchange-rates-block-wrapper {
+		position: initial;
+		width: 100%;
+	}
+	.account-inner-page-right-col .username-container {
+		display: none;
+	}
+	.mobile-profile-container {
+		display: block;
+	}
+	.mobile-profile-container .username-container {
+		margin-bottom: 0;
+	}
+	.mobile-profile-container {
+		padding: 30rem;
+	}
+	.username-container {
+		justify-content: flex-start;
+	}
+	.photo-container {
+		margin-right: 20rem;
+	}
+	.name-id-container > span {
+		text-align: left;
+	}
+	.name-id-container {
+		padding: 10rem 0 0 0;
+	}
+	.mobile-profile-link {
+	    display: block;
+	    width: 60rem;
+	    height: 60rem;
+	    position: absolute;
+	    top: 30rem;
+	    right: 0;
+	    z-index: 101;
+	    background-image: url(../img/elements/arrow-watch.svg);
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	    -webkit-background-size: 6rem 11rem;
+	    background-size: 6rem 11rem;
+	}
+	.mobile-tabs-container {
+		display: block;
+	}
+	.account-inner-page-left-col {
+		padding: 0 30rem;
+	}
+	.mobile-tabs-container {
+		padding: 0 30rem 30rem 30rem;
+		text-align: center;
+	}
+	.mobile-tabs-list {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+	}
+	.mobile-tabs-list li:first-child {
+		margin-right: 30rem;
+	}
+	.mobile-tabs-list li span {
+		font-size: 12rem;
+		font-weight: 500;
+		letter-spacing: 1rem;
+		color: #222020;
+		opacity: .3;
+	}
+	.mobile-tabs-list li {
+		border-bottom: 2rem solid transparent;
+	    padding: 0 0 10rem 0;
+	}
+	.mobile-tabs-list li.active {
+		border-bottom: 2rem solid #222020;
+	    padding: 0 0 10rem 0;
+	}
+	.mobile-tabs-list li.active span {
+		opacity: 1;
+	}
+	.account-inner-page-wrapper {
+		overflow: hidden;
+	}
+	.account-inner-page-wrapper .mobile-account-col-wrapper {
+		width: 200%;
+		transition: transform .4s linear;
+		padding: 0 0 56rem 0;
+	}
+	.account-inner-page-right-col {
+		border-left: none;
+		padding: 0 30rem 0 30rem;
+	}
+	.mobile-account-col-wrapper > div {
+		float: left;
+		width: 50%;
+		position: relative;
+		left: 40rem;
+		transition: left .4s linear;
+	}
+	.mobile-account-col-wrapper > div.active {
+		left: 0;
+	}
+	.mobile-account-col-wrapper > div.active + div {
+		left: -40rem;
+	}
+	.exchange-rates-list > li {
+		padding: 20rem;
+		position: relative;
+	}
+	.exchange-rates-description {
+		max-width: 160rem;
+	}
+	.exchange-rates-value {
+		position: absolute;
+		right: 20rem;
+		top: 50%;
+		margin-top: -13rem;
+	}
+	.username-account-hover-block {
+		display: block;
+		width: 200rem;
+		top: 105rem;
+		right: 0;
+		left: -50%;
+		margin-left: -100rem;
+		transition: left .5s ease;
+	}
+	.username-account-hover-block.active {
+		left: 50%;
+		pointer-events: all;
+	}
+	.username-account-hover-block a {
+		margin-bottom: 10rem;
+	}
+	.files-container.fade,
+	.exchange-rates-block-wrapper.fade {
+		opacity: .3;
+	}
+	/*page edit profile*/
+	.edit-profile-page .username-container {
+		display: none;
+	}
+	.edit-profile-form-wrapper {
+		display: block;
+		padding: 90rem 0 60rem 0;
+	}
+	.user-photo-container {
+		margin: 0 auto 40rem;
+	}
+	.edit-profile-form-wrapper .register-form-wrapper {
+		width: 100%;
+		padding: 0 20rem;
+		margin-bottom: 30rem;
+	}
+	.select-param-wrapper .nice-select.open + label, 
+	.select-param-wrapper .nice-select.label-up + label, 
+	.course-form-input-wrapper input:focus + label, 
+	.course-form-input-wrapper input.filled + label, 
+	.select-param-wrapper select + label.label-up {
+		font-size: 12rem;
+	}
+	.form-input-wrapper input:focus + label, 
+	.form-input-wrapper input.not-empty + label {
+		font-size: 12rem;
+	}
+	.change-pass-inputs-block input::-webkit-input-placeholder {color:#222020; opacity:1; letter-spacing: 2rem; line-height: 22rem; font: 16rem 'Bliss Pro'; font-style: normal; font-weight: 700; transition: opacity .4s ease;}/* webkit */
+	.change-pass-inputs-block input::-moz-placeholder          {color:#222020; opacity:1; letter-spacing: 2rem; line-height: 22rem; font: 16rem 'Bliss Pro'; font-style: normal; font-weight: 700; transition: opacity .4s ease;}/* Firefox 19+ */
+	.change-pass-inputs-block input:-moz-placeholder           {color:#222020; opacity:1; letter-spacing: 2rem; line-height: 22rem; font: 16rem 'Bliss Pro'; font-style: normal; font-weight: 700; transition: opacity .4s ease;}/* Firefox 18- */
+	.change-pass-inputs-block input:-ms-input-placeholder      {color:#222020; opacity:1; letter-spacing: 2rem; line-height: 22rem; font: 16rem 'Bliss Pro'; font-style: normal; font-weight: 700; transition: opacity .4s ease;}/* IE */
+	.change-pass-inputs-block input:focus::-webkit-input-placeholder {opacity:0;}/* webkit */
+	.change-pass-inputs-block input:focus::-moz-placeholder          {opacity:0;}/* Firefox 19+ */
+	.change-pass-inputs-block input:focus:-moz-placeholder           {opacity:0;}/* Firefox 18- */
+	.change-pass-inputs-block input:focus:-ms-input-placeholder      {opacity:0;}/* IE */
+
+	.back-btn {
+		top: 40rem;
+		height: 20rem;
+		z-index: 1001;
+	}
+	.change-pass-btn-wrapper {
+		text-align: center;
+	}
+	.edit-profile-btn {
+		padding: 20rem 40rem;
+	}
+	.exit-btn-wrapper {
+		text-align: center;
+	}
+	.exit-btn {
+		position: initial;
+	}
+	.contacts-info-block {
+		margin: 0 0 40rem 0;
+	}
+	.upload-photo-popup-container {
+		width: 280rem;
+		left: calc(50% - 140rem);
+   		padding: 30rem 20rem;
+	}
+	/*page 404*/
+	.page-404-main-wrapper {
+		height: 100%;
+	}
+	.page-404 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.page-404-wrapper {
+		width: 100%;
+		position: initial;
+	}
+}
+@media only screen and (max-width: 376px) {
+	.docs-list > li h3 {
+		max-width: 120rem;
+	}	
+}
+@media only screen and (max-width: 321px) {
+	.nice-select span.current {
+		width: 185rem;
+	}
+	.incorrect-mssg {
+		margin-right: -20rem;
+	}
+}

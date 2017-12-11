@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="personal-profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Личный-кабинет" transform="translate(-1005.000000, -115.000000)" fill-rule="nonzero" fill="#222020">
+            <g id="Group-2" transform="translate(970.000000, 100.000000)">
+                <g id="icon_search" transform="translate(20.000000, 0.000000)">
+                    <g transform="translate(15.000000, 15.000000)">
+                        <path d="M8.125,15.725 C3.9375,15.725 0.525,12.3125 0.525,8.125 C0.525,3.9375 3.9375,0.525 8.125,0.525 C12.3125,0.525 15.725,3.9375 15.725,8.125 C15.725,12.3125 12.3125,15.725 8.125,15.725 Z M8.125,1.975 C4.725,1.975 1.975,4.7375 1.975,8.125 C1.975,11.5125 4.7375,14.275 8.125,14.275 C11.5125,14.275 14.275,11.5125 14.275,8.125 C14.275,4.7375 11.525,1.975 8.125,1.975 Z" id="Shape"></path>
+                        <rect id="Rectangle-path" transform="translate(15.941607, 15.932956) rotate(-45.000000) translate(-15.941607, -15.932956) " x="15.2228638" y="11.9579937" width="1.43748621" height="7.94992376" rx="0.718743107"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
